@@ -1,4 +1,5 @@
 nums = []
 for i in range(100):
-    nums.append(i)
+    if i%2 == 0:
+        nums.append(i)
 print(nums)    
