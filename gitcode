@@ -1,5 +1,1 @@
-nums = []
-for i in range(100):
-    if i%2 == 0:
-        nums.append(i)
-print(nums)    
+print ([x for x in range(100 if x%2)]) == 0])
